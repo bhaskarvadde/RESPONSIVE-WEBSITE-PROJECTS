@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*Nav Bar Section*/
+.navbar-logo{
+    height: 30px;
+    width: 55px;
+}
+.navbar-menu-items{
+    color: black;
+}
+#nav-item-2{
+    color: black;
+}
+#nav-item-3{
+    color: black;
+}
+#nav-item-4{
+    color: black;
+}
+/*Banner Section*/
+.banner-bg-container{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+    height: 93vh;
+    background-size: cover;
+}
+.banner-heading{
+    color: white;
+    font-weight: bold;
+}
+.banner-button{
+    color: white;
+    background-color: #1a2137;
+    border-width: 0px;
+    border-radius: 3px;
+    width: 100px;
+    padding: 5px;
+}
+/*Features Section*/
+.bg-container{
+    background-color: rgb(235, 239, 240);
+    padding: 10px;
+}
+.bg-container-heading{
+    color: #1f2933;
+    font-family: roboto;
+}
+.card{
+    background-color: lightcyan;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.card-image{
+    width:;
+    margin: auto;
+    height: 64px;
+    width: 64px;
+}
+.card-heading{
+    color: #1f2933;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.card-description{
+    color: #7b8794;
+    font-size: 16px;
+}
+/*VR Kit Section*/
+.sec-2-heading{
+    color: #1f2933;
+    font-family: bree serif;
+}
+.sec-3-card-image{
+    height: 200px;
+    width: 250px;
+}
+.sec-3-card{
+    text-align: center;
+    background-color:;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 2px;
+}
+.sec-3-title{
+    color: rgb(29, 29, 97);
+    font-family: verdana;
+    font-size: 29px;
+}
+/*Optics And Controllers*/
+.improved-optics-section {
+    background-color: rgb(250, 245, 245);
+  }
+  .improved-optics-section-img {
+    width: 100%;
+  }
+  .improved-optics-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .improved-optics-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .custom-button {
+    color: white;
+    background-color: #1a2137;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+/*Trending Blogs*/  
+.trending-blogs-card{
+    background-color: #e4ecf5;
+}
+.trending-blogs-title{
+  color: #1f2933;
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom: 10px;
+}
+.trending-blogs-amazon{
+    color: #959ead;
+    padding: 5px;
+    margin: 5px;
+}
+.trending-blogs-description{
+  color: #323f4b;
+  padding: 5px;
+    margin: 5px;
+}
+.trending-blogs-link{
+    color: #1754a1;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+/*Products*/
+.products-bg-container-1{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    height: 85vh;
+    background-size: cover;
+    margin-bottom: 25px;
+  }
+  .products-bg-container-2{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    height: 85vh;
+    background-size: cover;
+    margin-bottom: 25px;
+  }
+  .products-bg-container-title{
+    color: white;
+    padding: 15px;
+  }
+  .products-bg-container-description{
+    color: white;
+    padding: 15px;
+  }
+  .products-bg-container-button{
+    background-color: #1f2933;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 35px;
+  }
+  .products-outside-button{
+    background-color: #1754a1;
+    color: white;
+    border-radius: 2px;
+    border-width: 0px;
+    padding: 5px;
+    width: 120px;
+    float: right;
+  }
+/*Cantact Us*/
+.cantact-us-bg-container{
+    background-color: #222b36;
+}
+.cantact-us-title{
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+}
+.contact-us-button{
+    color: white;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+}
+/*Follow Us*/
+.follow-us-bg-container{
+  text-align: center;
+  background-color: #19232d;
+}
+.follow-us-logos{
+  height: 45px;
+  width: 60px;
+  text-align: center;
+  margin: 15px;
+  padding: 2px;
+}
+.follow-us-address{
+color: #5a7184;
+font-family: roboto;
+}
+.contact-us{
+color: #5a7184;
+margin: 10px;
+padding: 5px;
+text-align: left;
+}
+.let-us-help-You{
+color: #5a7184;
+margin: 10px;
+padding: 5px;
+text-align: left;
+}
+.hr-line{
+  background-color: #5a7184;
+  width: 91%;
+}
+.copyright{
+  color: #959ead;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px;
+  padding: 5px;
+}
+.copyright-icon{
+  color: #959ead;
+  margin-bottom: 5px;
+}

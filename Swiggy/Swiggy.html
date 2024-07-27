@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./swiggy.css">
+</head>
+<body>
+<!--Navbar--> 
+<div id="section-navbar">
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3 col-md-1">
+        <a class="navbar-brand"><img src="./Swiggy_logo-PNG_lfcnxm.png" class="swiggy-logo"/></a>
+      </div>
+      <div class="col-4 col-md-4">
+        <input class="location" type="search" placeholder="Enter your location" aria-label="Search">
+      </div>
+      <div class="col-4 col-md-6">
+        <form class="form-inline">
+          <input class=" search" type="search" placeholder="Search for restaurant and food" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">           
+        </form>
+      </div>
+      <div class="col-1 col-md-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle mt-2" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Banner-->
+<div id="section-banner">
+  <div class="banner-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex flex-row justify-content-between">
+            <div>
+                <h1 class="banner-title">
+                  Order <br>
+                  Food <br>
+                  Online in <br> 
+                  Hyderabad
+                </h1>
+            </div>
+            <div>
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1002,h_600/v1678428358/portal/m/seo_web/dweb_header" class="banner-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <br>
+<!--Items--> 
+<div id="sections-items">
+  <div class="container">
+    <h1 style="color: #171B1F;">What's on your mind?</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <div class="d-flex">
+             <div>
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli" class="w-100"/>
+             </div> 
+             <div>
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa" class="w-100"/>
+           </div> 
+           <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Poori" class="w-100"/>
+         </div> 
+          </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+         <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich" class="w-100"/>
+         </div> 
+         <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada" class="w-100"/>
+       </div> 
+        <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Pancake" class="w-100">
+        </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+         <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Paratha" class="w-100"/>
+         </div> 
+         <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Juice" class="w-100"/>
+       </div> 
+        <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Poha" class="w-100">
+        </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+         <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Pongal" class="w-100"/>
+         </div> 
+         <div>
+          <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Omelette" class="w-100"/>
+       </div> 
+        <div>
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029849/PC_Creative%20refresh/3D_bau/banners_new/Coffee" class="w-100">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <hr>
+<!--Top Restaurants-->
+<div id="section-top-restaurants">
+  <div class="container">
+    <h3>Top Restaurant Chains in Hyderabad</h3>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dw307jhy1c2t3gmzy5zn" class="top-rest-img"/>
+              <h5>Survi Take Away</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4
+              </h6>
+              <p>Biryani , Chinese , Indian, Tandoor, Kababs</p>
+              <p>Hitech city road</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/zfayxun68uol8lxb7l8p" class="top-rest-img"/>
+              <h5>Broadway</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.3
+              </h6>
+              <p>Italian , Chinese , Indian</p>
+              <p>Jubilee Hills</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ktpps4ih2mrgsrfgcxe2" class="top-rest-img"/>
+              <h5>Theobroma</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.5
+              </h6>
+              <p>Desserts</p>
+              <p>Jubilee Hills</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee4f041cd8611dccc19f4267783ab5ea" class="top-rest-img"/>
+              <h5>EatFit</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.2
+              </h6>
+              <p>Healthy Food , Pizzas , North Indian</p>
+              <p>Jubilee Hills</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><hr>
+<!--Restaurants with online-->
+<div id="section-online-restaurants">
+  <div class="container">
+    <h3 style="color: #171B1F;">Restaurants with online Food Delivery in Hyderabad</h2>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/86da0221fac66ddad03292e303402762" class="top-rest-img"/>
+              <h5>Fruit Bite Natur..</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.5
+              </h6>
+              <p>Indian</p>
+              <p>Manikonda</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/n9glfyrged7wslmkxdpp" class="top-rest-img"/>
+              <h5>Abids KItchen</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                3.9
+              </h6>
+              <p>Biryani , Haleem,...</p>
+              <p>Film Nagar</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/b1c6f2e196b1a323a2ae6193e27c5712" class="top-rest-img"/>
+              <h5>45th Avenue b...</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.3
+              </h6>
+              <p>Desserts, Bakery</p>
+              <p>Jubilee Hills</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cs9avjc5g5jhdlahlvxn" class="top-rest-img"/>
+              <h5>Subway</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4
+              </h6>
+              <p>Salads , Snacks</p>
+              <p>Jubilee Hills</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/by9brmye8iy40ezrshsc" class="top-rest-img"/>
+              <h5>Domino's Pizza</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4
+              </h6>
+              <p>Indian, pizza</p>
+              <p>Film Nagar</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xbcxtblwjmlj36kqkzjo" class="top-rest-img"/>
+              <h5>Burger King</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.1
+              </h6>
+              <p>Burgers , American</p>
+              <p>Film Nagar</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ebrjhlgnsshuinjxbuof" class="top-rest-img"/>
+              <h5>Bakingo.</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4.1
+              </h6>
+              <p>Bakery</p>
+              <p>Toli Chowki</p>
+            </div>
+            <div class="top-rest-card">
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/d71cb81f4a3edc96f2866198b9d32eab" class="top-rest-img"/>
+              <h5>Dosa Factory</h5>
+              <h6>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill mb-1 star" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                4
+              </h6>
+              <p>Dosas</p>
+              <p>Dilsukhnagar</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Food Culture-->
+<div id="section-food-culture">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 style="color:#171B1F;">Food Culture in Hyderabad</h1>
+        <h2 style="color: #676A6D; font-wieght:bold;">Order Food from Your Favourite Restaurants in Hyderabad With Swiggy</h2>
+        <p style="color: #676A6D;">
+          Hyderabad is heaven for every foodie out there. The Pearl city of India offers a rich and vibrant food culture that will satisfy your taste buds.
+           Hyderabadi food is a unique blend of Turkish, Mughal, Arabic and Telugu cultures. And the best thing is you get to savour this unique blend of flavours with us.
+          Whether it's slow-cooked mutton, Mutton Dalcha, or Sheer Korma, Swiggy delivers some of the most delicious Hyderabadi cuisines right to your doorstep. 
+          Delicious food from popular cafes, eateries, and local food joints gets delivered across the city in no time. So when placing your online food order in Hyderabad, you need to find a restaurant near you that serves your favourite dish and relish in the unique flavours of Hyderabadi cuisines.
+        </p>
+        <h2 style="color: #676A6D; font-wieght:bold;">Sit back and enjoy your favourite dishes at your home.</h2>
+        <p style="color: #676A6D;">
+          Hyderabad is home to millions of people who order food online. To cater to their needs, Swiggy partners with top-rated restaurants, cafes, and food joints to bring you a wide range of food menus.
+
+No need to step out in the city traffic and spend hours waiting to get a table in a restaurant; you can get online food delivery in Hyderabad and savour your favourite dishes while watching your favourite movie or Netflix show.
+
+Are you throwing a weekend house party and worrying about the snacks and food? Let Swiggy take care of it. Order party meals like pizza, burgers, beverages and many other exotic dishes online and let the party begin.
+        </p>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Explore Localities-->
+<div id="section-localities">
+  <div class="container">
+    <h2>Explore localities in and around Hyderabad</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Mahmadhpur</p>
+          </div>
+          <div>
+            <p>Kodchera</p>
+          </div>
+          <div>
+            <p>Yadgarpalli</p>
+          </div>
+          <div>
+            <p>Korremal</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Pratapsingaram</p>
+          </div>
+          <div>
+            <p>Pochampally</p>
+          </div>
+          <div>
+            <p>CMR College</p>
+          </div>
+          <div>
+            <p>Porur</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Adilabad</p>
+          </div>
+          <div>
+            <p>Anantaram</p>
+          </div>
+          <div>
+            <p>Bits</p>
+          </div>
+          <div>
+            <p>And More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Hydearabad eating-->
+<div id="hyderabad-eating">
+  <div class="container">
+    <h2>What's Hyderabad Eating! People Ordering in Hyderabad</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>American</p>
+          </div>
+          <div>
+            <p>Andhra</p>
+          </div>
+          <div>
+            <p>Arabian</p>
+          </div>
+          <div>
+            <p>Asian</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Bakery</p>
+          </div>
+          <div>
+            <p>Barbecue</p>
+          </div>
+          <div>
+            <p>Bengali</p>
+          </div>
+          <div>
+            <p>Beverages</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Biryani</p>
+          </div>
+          <div>
+            <p>Burgers</p>
+          </div>
+          <div>
+            <p>Cafe</p>
+          </div>
+          <div>
+            <p>And More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Top Rextaurant Chains-->
+<div id="section-top-chains">
+  <div class="container">
+    <h2>Top Restaurant Chains</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Berger King</p>
+          </div>
+          <div>
+            <p>Wow! Momo</p>
+          </div>
+          <div>
+            <p>Udipi's..</p>
+          </div>
+          <div>
+            <p>Cafe Coffee..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Shah Ghouse</p>
+          </div>
+          <div>
+            <p>Pista House</p>
+          </div>
+          <div>
+            <p>Imperial..</p>
+          </div>
+          <div>
+            <p>Kwality Walls</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="foods d-flex flex-row justify-content-between">
+          <div>
+            <p>Hotel Rumaan</p>
+          </div>
+          <div>
+            <p>Cafe Niloufer</p>
+          </div>
+          <div>
+            <p>The Obroma</p>
+          </div>
+          <div>
+            <p>And More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Apps-->
+<div id="section-apps">
+  <div class="container-fluid apps-bg-container">
+    <div class="row">
+      <div class="col-6 p-5" >
+          <h2 style="color: #3D4047; font-weight:bold;">For better experience,download the Swiggy app now</h2>
+      </div>
+      <div class="col-6 mt-5">
+          <div class="d-flex flex-row justify-content-around">
+            <div>
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store" class="app-img"/>
+            </div>
+            <div>
+              <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store" class="app-img"/>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<div id="section-footer">
+  <div class="container-fluid footer-bg">
+    <div class="row">
+      <div class="col-12 col-md-4 mt-5 p-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPtHUS0jvcAm1PrgmL-gtdSaDtes20X055jqIm2a35HOEUyLFsP_5224gY4CpTKGTtw&usqp=CAU" class="ftr-swiggy-logo"/>
+        <p>© 2023 Bundl Technologies Pvt. Ltd</p>
+      </div>      
+      <div class="col-6 col-md-4 mt-3">
+        <ul>Company</ul>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Team</li>
+          <li>Swiggy One</li>
+          <li>Swiggy Instamart</li>
+          <li>Swiggy Genie</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 mt-3">
+        <ul>Legal</ul>
+        <ul>
+          <li>Terms & Conditions</li>
+          <li>Cookie Policy</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 mt-3">
+        <ul>Contact Us</ul>
+        <ul>
+          <li>Help & Support</li>
+          <li>Partner with us</li>
+          <li>Ride with us</li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 mt-3">
+        <ul>We Deliver to:</ul>
+        <ul>
+          <li>Bangalore</li>
+          <li>Hyderabad</li>
+          <li>Gurgaon</li>
+          <li>Delhi</li>
+          <li>Mumbai</li>
+          <li>Pune</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+

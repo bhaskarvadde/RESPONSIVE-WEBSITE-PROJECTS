@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body{
+          background-color: black;
+          border-width: 10px;
+          font-family: roboto;
+}
+/* Left Sidebar */
+.sidebar{
+          display: flex;
+          flex-direction: column;
+          position: fixed;
+          top: 0px;
+          left: 200px;
+          bottom: 0px;
+          width: 230px;
+}
+svg{
+          color: white;
+}
+.sidebar-icon-container{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-left: 15px;
+          margin-bottom: 2px;
+}
+.logo{
+          margin-left: 15px;
+          margin-top: 10px;
+          padding: 2px;
+}
+.sidebar-items{
+          color: white;
+          margin: 20px;
+          font-weight: 500;
+}
+.sidebar-button{
+          background-color:#169DF0;
+          color: white;
+          width: 75%;
+          padding: 5px;
+          border-radius: 30px;
+          border: 0px;
+}
+.logo:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 20px;
+}
+.sidebar-icon-container:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 30px;
+}
+.sidebar-button:hover{
+          opacity: 0.9;
+}
+.sidebar-profile{
+          width: 35px;
+          margin-bottom: 9px;
+          border-radius: 20px;
+}
+.sidebar-profile-container{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          position: fixed;
+          bottom: 0%;
+          padding: 5px;
+}
+.sidebar-profile-user-name{
+          color: white;
+          padding: 5px;
+          line-height: 1px;
+}
+.sidebar-profile-user-id{
+          color: rgb(104, 101, 101);
+          padding: 5px;
+          line-height: 1px;
+}
+.sidebar-profile-more{
+          color: white;
+          padding: 5px;
+          margin-bottom: 15px;
+}
+.sidebar-profile-container:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 30px;
+}
+
+/* Main Section */
+
+/* Top Section */
+.main-section{
+          border-left: 1px solid rgb(62, 59, 59);
+          border-right: 1px solid rgb(62, 59, 59);
+          position: fixed;
+          top: 0px;
+          left: 430px;
+          width: 550px;
+}
+.main-section-top-container{
+          display: flex;
+          padding: 5px;
+}
+.main-section-left-arrow:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 50%;
+}
+.main-top-section-username{
+          color: white;
+          margin: 5px;
+}
+.main-top-section-tweets{
+          color: rgb(104, 101, 101);
+          font-weight: 300;
+}
+.banner-bg-container{
+          position: relative;
+}
+.banner{
+          width: 100%;
+          height:200px;
+}
+.banner-profile-container{
+          position:absolute;
+          display: flex;
+          top: 130px;
+}
+.banner-profile{
+          width: 120px;
+          margin-left: 15px;
+          border-radius: 50%;
+}
+.edit-profile-button{
+          background-color: black;
+          margin-left: 300px;
+          margin-top: 55px;
+          color: white;
+          border: 1px solid lightgrey;
+          padding:5px;
+          border-radius: 35px;
+          font-size: 15px;
+          width: 100px;
+          font-weight: 700;
+}
+.edit-profile-button:hover{
+          background-color: rgb(37, 18, 18);
+
+}
+.banner-profile-details{
+          margin-top: 70px;
+          margin-left: 15px;
+}
+.calender{
+          margin-left: 6px;
+}
+
+/* Bottom Section */
+.bottom-section{
+          display: flex;
+          justify-content:space-evenly;
+          align-items: center;
+          padding: 5px;
+          border-bottom: 1px solid rgb(62, 59, 59);
+}
+.bottom-section div{
+          padding: 8px;
+          width: 100%;
+}
+.bottom-tweets{
+          text-align: center;
+          color: white;
+          font-weight: 600;
+          border-bottom: 3px solid #169DF0;
+}
+.bottom-tweets:hover{
+          background-color: rgb(37, 18, 18);
+}
+.other {
+          color: rgb(104, 101, 101);
+          text-align: center;
+}
+.other:hover{
+          background-color: rgb(37, 18, 18);
+}
+
+.bottom-section-container{
+          border-bottom: 1px solid rgb(62, 59, 59);
+          padding: 8px;
+          width: 100%;
+          position: relative;
+}
+.bottom-section-profile-tweet{
+          display: flex;
+}
+.bottom-user-name{
+          color: white;
+          display: inline;
+          margin-left: 5px;
+}
+.bottom-user-id-more{
+          color: rgb(104, 101, 101);
+          display: inline;
+          margin-left: 5px;
+}
+.bottom-user-id-more-2{
+          color: rgb(104, 101, 101);
+          text-align: right;
+          margin-left: 110px;
+          padding: 3px;
+}
+.bottom-user-id-more-2:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 50%;
+}
+.dearnothing{
+          color: #169DF0;
+          display: inline;
+          margin-left: 38px;
+          position: absolute;
+          top: 27px;
+          font-weight: 100;
+}
+.tweet-message{
+          display: inline;
+          color: white;
+          margin-left: 5px;
+          text-align:justify;
+          position: absolute;
+          top: 28px;
+          left: 150px;
+}
+.reactions{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 5px;
+}
+.reactions div{
+          padding: 6px;
+          width: 30px;
+}
+.reactions div:hover{
+          background-color: rgb(37, 18, 18);
+          border-radius: 50%;
+}
+
+.isro-container{
+          border: 1px solid rgb(50, 48, 48);
+          width: 470px;
+          border-radius: 10px;
+          margin-left: 40px;
+          padding: 10px;
+          display: flex;
+          height: 130px;
+}
+.isro-profile{
+          width: 20px;
+          border-radius: 50%;
+}
+
+/* Right Section */
+.right-section-container{
+          position: fixed;
+          top: 0;
+          left: 1000px;
+}
+.search-container{
+          display: flex;
+          padding: 5px;
+}
+input{
+          background-color: rgb(37, 35, 35);
+          padding: 10px;
+          width: 130%;
+          font-weight: 100;
+          border: 0;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+}
+.search-icon-container{
+          background-color: rgb(37, 35, 35);
+          width: 25px;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+}
+.search-icon-container svg{
+          margin-top: 15px;
+          margin-left: 10px;
+}

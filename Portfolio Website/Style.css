@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*Banner*/
+.portfolio-logo{
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    border-color: grey;
+}
+.banner-bg-container{
+    background-color: #191a1d;
+     height: 92vh;
+}
+.banner-card{
+    text-align: center;
+}
+.banner-title{
+    color: white;
+    margin: 5px;
+    font-family: roboto;
+}
+.banner-description{
+    color: #9aa5b1;
+    margin: 10px;
+    font-family: roboto;
+}
+.banner-button{
+    width: 130px;
+    color: white;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    background-color: #4b6cc1;
+}
+.banner-image{
+    width: 280px;
+    margin-bottom: 10px;
+}
+/*About Me*/
+.about-me-bg-container{
+    background-color: #323f4b;
+}
+.about-me-image{
+    width: 100%;
+}
+.facts{
+    color: #cced00;
+    font-weight: bold;
+}
+.about-me{
+    color: white;
+    font-weight: bold;
+}
+.my-description{
+    color: #9aa5b1;
+}
+.about-me-bg-container-2{
+    background-color: #1f2933;
+}
+.skills{
+    color: #cced00;
+    padding: 15px;
+}
+.card-bg{
+    background-color: #323f4b;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    width: 95%;
+}
+/*Projects*/
+.projects-bg-container{
+    background-color: #3e4c59;
+}
+.projects-heading{
+    color: #cced00;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.projects-description{
+    color: white;
+    margin: 0px;
+}
+.project-card{
+    background-color: #323f4b;
+    border-radius: 5px;
+}
+.project-card p ,h1 ,a{
+    padding: 5px;
+    margin-left: 10px;
+}
+.project-card a{
+    color: #cced00;
+}
+
+.project-card-title{
+    color: white;
+}
+.project-card-description{
+    color: #9aa5b1;
+}
+/*Services*/
+.services-bg-container{
+    background-color: #52606d;
+}
+.services-heading{
+    color: #cced00;
+    font-size: 30px;
+}
+.services-description{
+    color: white;
+    font-size: 50px;
+}
+.services-card{
+    background-color: #323f4b;
+    padding: 30px;
+    border-radius: 10px;
+}
+.services-card h2{
+    color: white;
+    margin-top: 5px;
+}
+.services-card p{
+    color: #9aa5b1;
+}
+/*Work Done*/
+.work-done-bg-container{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
+    background-size: cover;
+}
+.work-done-icon{
+    color: white;
+    height: 100px;
+    width: 200px;
+}
+.hr-line{
+    background-color: white;
+    width: 50%;
+    font-weight: bold;   
+}
+.work-done-card{
+    text-align: center;
+}
+.work-done-card p {
+    color: white;
+}
+.work-done-card h1{
+    color: white;
+    font-weight: bold;
+}
+/*Testimonials*/
+.testimonials-bg-container{
+    background-color: #1f2933;
+}
+.testimonials-carousel-bg-container{
+    background-color: #323f4b;
+    padding: 15px;
+}
+.testimonials-card-description{
+    color: #9aa5b1;
+}
+.testimonials-card-title{
+    color: white;
+}
+.carousel-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/*Footer*/
+.footer-bg-container{
+    background-color: #001c32;
+}
+.footer-profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.footer-title{
+    color: #cced00;
+    font-size: 20px;
+}
+.footer-description{
+    color: #9aa5b1;
+}
+.footer-copyright-bg-container{
+    background-color: #0d2436;
+    color: #5a7184;
+    text-align: center;
+    padding: 4px;
+}

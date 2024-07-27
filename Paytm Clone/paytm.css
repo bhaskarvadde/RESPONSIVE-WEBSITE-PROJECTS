@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*Navbar*/
+.paytm-logo{
+    width: 180px;
+}
+.nav-list{
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-button{
+    background-color: #01BAF3;
+    color: white;
+    padding: 5px;
+    width: 110px;
+    border-width: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-button:hover{
+    background-color: #012870;
+}
+.bg-con{
+    background-color: #F0F0F3;
+    text-align: center;
+    height: 30px;
+}
+/*Banner*/
+.banner-logo{
+    width: 100px;
+    margin-bottom: 80px;
+}
+.banner-margin{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.banner-margin2{
+    margin-top: 100px;
+    margin-left: 195px;
+}
+.banner-button{
+    width: 250px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.banner-button:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Recharge*/
+.recharge-container{
+    background-color: #01BAF3;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+}
+.recharge-card{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recharge-card img{
+    width: 70px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.recharge-card h1{
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recharge-card:hover{
+    background-color:black;
+    opacity: 0.4;
+}
+
+/*Book & Buy on Paytm*/
+.book-container{
+    background-color: #0E4A8B;
+}
+
+/*Postpaid*/
+.postpaid-button{
+    width: 150px;
+    background-color: #012870;
+    color: white;
+    border-width: 0px;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.postpaid-button:hover{
+    background-color:#01BAF3 ;
+}
+
+/*Cards*/
+.card-margin{
+    margin-top: 90px;
+}
+
+/*Business Tools*/
+.tools-bg{
+    padding: 20px;
+}
+.tools-link{
+    text-decoration: none;
+    color: black;
+}
+.money-card{
+    background-color: #01BAF3;
+    width: 150px;
+    color: white;
+    height: 240px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.money-card:hover{
+    background-color: #0ba9da;
+}
+.money-card h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Arial;
+}
+.travel-margin{
+    margin-bottom: 150px;
+}
+
+/*Paytm Footer*/
+.footer-bg{
+    background-color: #F5F7FA;
+}
+.ftr-title{
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+summary{
+    color: #515051;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 15px;
+    color: #515051;
+    font-weight: 400;
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+}
+h5{
+    color: #515051;
+    font-family: Arial, Helvetica;
+
+}
+p:hover{
+    color: black;
+}
+.ftr-blue{
+    background-color: #01BAF3;
+    height: 12px;
+}
+.ftr-darkblue{
+    background-color: #012870;
+    height: 12px;
+}
+
+/* END * /

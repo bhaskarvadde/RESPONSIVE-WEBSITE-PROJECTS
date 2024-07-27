@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*NavBar*/
+.e-commerce-logo{
+    width: 100px;
+    height: 30px;
+}
+/*Banner*/
+.carousel-image{
+    height: 84vh;
+    width: 100%;
+}
+.carousel-image2{
+    height: 93vh;
+    width: 100%;
+}
+/*Services*/
+.our-services-title{
+    color: #183b56;
+    padding: 5px;
+    margin-left: 10px;
+}
+.our-services-description{
+    color: #616c7c;
+    padding: 5px;
+    margin-left: 10px;
+}
+.services-card{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.services-card img{
+    width: 40%;
+}
+.services-card h1{
+    color: #1f2933;
+}
+.services-card p{
+    color: #7b8794;
+}
+/*Products*/
+.our-products-title{
+    color: #183b56;
+}
+.products-card1{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png');
+    padding: 25px;
+    height: 60vh;
+    border-radius: 5px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.products-card2{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png');
+    padding: 25px;
+    height: 60vh;
+    border-radius: 5px;
+    background-size: cover;
+}
+.products-button{
+    background-color: white;
+    color: #ff9f00;
+    width: 120px;
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 8px;
+}
+.products-card-title{
+    color: white;
+}
+.products-card-description{
+    color:white;
+}
+/*Offers*/
+.offers-bg-container{
+    background-image: linear-gradient(to right , #f49541,#dd5d97)
+}
+.offer-img{
+    width: 100%;
+}
+.appliances-img{
+    width: 100%;
+    margin-top: 40px;
+}
+.card-offer-img{
+    width: 100%;
+}
+.offers-title{
+    color: #ad2167;
+}
+.offers-description{
+    color: white;
+    font-size: 30px;
+}
+/*Trending-Blogs*/
+.blogs-card{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 6px 6px 6px rgba(0.2, 0.2, 0.2, 0.2);
+}
+.blogs-img{
+    width: 100%;
+}
+.blogs-card p{
+    color: #959ead;
+}
+.blogs-card h1{
+    color: #183b56;
+}
+.blogs-card a{
+    color: #ff9f00;
+    font-weight: bold;
+}
+/*Explore*/
+.explore-card{
+    color: #1f2933;
+    padding: 10px;
+}
+.electronics-img{
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+.explore-links{
+    color: #ff9f00;
+    margin: 10px;
+}
+/*Contact Us*/
+.button-bg{
+    border-color:#ff9f00;
+    color:#ff9f00;
+    margin: 20px;
+}
+.cantact-us-bg{
+    background-color: #373e45;
+}
+/*Footer*/
+.footer-bg1{
+    background-color: #152c3e;
+    color: #5a7184;
+}
+.flybuy-logo{
+    width: 150px;
+    margin: 15px;
+}
+.follow-us-logos{
+    width: 30px;
+    margin: 15px;
+}
+.footer-line{
+    width: 100%;
+    border-width: 1px;
+    border-color: #5a7184;
+}
+.copyrightt{
+    font-weight: bold;
+    color: #5a7184;
+    text-align: center;
+}
+.copyright-bg{
+    background-color: #1c2f43;
+}
+

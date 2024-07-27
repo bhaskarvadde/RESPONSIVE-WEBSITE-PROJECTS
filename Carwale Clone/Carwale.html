@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CARWALE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./carwale.css">
+    </head>
+  <body>
+<!--NavBar--> 
+<div id="section-navbar" class="mr-5 ml-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/new-header/logo.svg" class="carwale-logo"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+           
+            <li class="nav-item dropdown">
+                <a style="color:rgb(77, 77, 73); font-weight:bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NEW CARS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item dropdown-items" href="#">Find New Cars</a>
+                    <a class="dropdown-item dropdown-items" href="#">Upcoming Cars</a>
+                    <a class="dropdown-item dropdown-items" href="#">New Launches</a>
+                    <a class="dropdown-item dropdown-items" href="#">Compare Cars</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item dropdown-items" href="#">Check On-Road Price</a>
+                    <a class="dropdown-item dropdown-items" href="#">New Car Loan</a>
+                    <a class="dropdown-item dropdown-items" href="#">Electric Cars</a>
+                    <a class="dropdown-item dropdown-items" href="#">Find Dealer</a>
+                 </div>
+            <li class="nav-item dropdown">
+                <a style="color:rgb(77, 77, 73); font-weight:bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                USED CARS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item dropdown-items" href="#">Buy Used Cars</a>
+                    <a class="dropdown-item dropdown-items" href="#">Check Car Valuation</a>
+                    <a class="dropdown-item dropdown-items" href="#">Used Car Loan</a>
+                    <a class="dropdown-item dropdown-items" href="#">Find Dealers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item dropdown-items" href="#">CarWale abSure</a>
+                    <a class="dropdown-item dropdown-items" href="#">Sell Your Car</a>
+                    <a class="dropdown-item dropdown-items" href="#">Explore Used cars</a>
+                    <a class="dropdown-item dropdown-items" href="#">My Listings</a>
+                 </div>
+            <li class="nav-item dropdown">
+                <a style="color: rgb(77, 77, 73) ; font-weight:bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                REVIEWS & NEWS
+                </a>      
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item dropdown-items" href="#">News</a>
+                <a class="dropdown-item dropdown-items" href="#">User Reviews</a>
+                <a class="dropdown-item dropdown-items" href="#">Special Reports</a>
+                <a class="dropdown-item dropdown-items" href="#">Videos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item dropdown-items" href="#">Expert Reviews</a>
+                <a class="dropdown-item dropdown-items" href="#">Webstories</a>
+                <a class="dropdown-item dropdown-items" href="#">Images</a>
+                <a class="dropdown-item dropdown-items" href="#">Tips And Advices</a>
+             </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <img src="https://img.icons8.com/ios/256/marker--v1.png" class="nav-icons"/>
+          <img src="https://img.icons8.com/carbon-copy/256/google-translate--v2.png" class="nav-icons"/>
+          <img src="https://img.icons8.com/fluency-systems-regular/256/guest-male.png" class="nav-icons"/>
+        </div>
+      </nav>
+</div> 
+<!--Banner-->
+<div id="section-banner">
+  <div class="banner-bg-container d-flex flex-column justify-content-end">
+        <div class="search-bg mb-5">
+          <h1 class="banner-title">FIND THE RIGHT CAR</h1>
+            <form class="form-inline">
+              <input class="form-control mr-sm-3 m-2 ml-5" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          <div>
+            <span style="color: white;">e.g.</span>
+            <a style="color: white;" href="">Lamborghini Urus S |
+            </a>
+            <a style="color: white;" href="">New Car Discounts |
+            </a>
+            <a style="color: white;" href="">Sell My Car</a>
+          </div>
+        </div>
+  </div>
+ </div>
+ <!--Featured Cars-->
+<div id="section-feautured-cars">
+  <div class="container">
+    <h1 style="color: rgb(30, 18, 84);">Featured Cars</h1>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/107543/vitara-brezza-2022-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+                    class="w-100"/>
+          <h1>Maruti Suzuki Brezza</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 8.27 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/40087/thar-exterior-right-front-three-quarter-11.jpeg?q=75"
+                    class="w-100"/>
+          <h1>Mahindra Thar</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 10.55 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/141115/creta-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+                    class="w-100"/>
+          <h1>Hyundai Creta</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 10.87 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/128413/scorpio-exterior-right-front-three-quarter-46.jpeg?isig=0&q=75"
+                    class="w-100"/>
+          <h1>Mahindra Scorpio</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 13.00 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/54399/exterior-right-front-three-quarter-10.jpeg?q=75"
+                    class="w-100"/>
+          <h1>Maruti Suzuki Swift</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 5.99 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card-border">
+          <img src="https://imgd.aeplcdn.com/310x174/n/cw/ec/141121/venue-exterior-right-front-three-quarter.jpeg?isig=0&q=75"
+                    class="w-100"/>
+          <h1>Hyundai Venue</h1>        
+          <p><span style="font-weight: bold; color:black">₹ 7.72 Lakh </span>onwards</p>
+          <p>Avg. Ex-Showroom price</p>
+          <a href="">Show price in my city</a>
+        </div>
+      </div>
+    </div><br>
+    <a href="">View All Popular Cars</a>
+    <br>
+  </div>
+</div> 
+<br>
+<!--All Brands-->
+<div id="section-all-brands">
+  <div class="container">
+    <h1 style="color: rgb(30, 18, 84);">All Brands</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <div class=" d-flex text-center">
+            <div class="brand-card">
+              <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/10/brands/logos/maruti-suzuki1647009823420.jpg?v=1647009823707&q=75"
+                    class="w-100" />
+              <h3>Maruti Suzuki</h3>
+            </div>
+            <div class="brand-card">
+              <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/16/brands/logos/tata.jpg?v=1629973276336&q=75"
+                    class="w-100" />
+              <h3>Tata</h3>
+            </div>
+            <div class="brand-card">
+              <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/8/brands/logos/hyundai.jpg?v=1629973193722&q=75"
+                    class="w-100" />
+              <h3>Hyundai</h3>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class=" d-flex text-center">
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/9/brands/logos/mahindra.jpg?v=1629973668273&q=75"
+                  class="w-100" />
+            <h3>Mahindra</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/17/brands/logos/toyota.jpg?v=1630055705330&q=75"
+                  class="w-100" />
+            <h3>Toyota</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/70/brands/logos/kia.jpg?v=1630057189593&q=75"
+                  class="w-100" />
+            <h3>Kia</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class=" d-flex text-center">
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/1/brands/logos/bmw.jpg?v=1629973130013&q=75"
+                  class="w-100" />
+            <h3>BMW</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/11/brands/logos/mercedes-benz.jpg?v=1629973270530&q=75"
+                  class="w-100" />
+            <h3>Mercedes Benz</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/72/brands/logos/mg.jpg?v=1631163895654&q=75"
+                  class="w-100" />
+            <h3>MG</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class=" d-flex text-center">
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/20/brands/logos/volkswagen.jpg?v=1630056096439&q=75"
+                  class="w-100" />
+            <h3>Volkswagen</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/7/brands/logos/honda.jpg?v=1630056209549&q=75"
+                  class="w-100" />
+            <h3>Honda</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/15/brands/logos/skoda.jpg?v=1630055414864&q=75"
+                  class="w-100" />
+            <h3>Skoda</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class=" d-flex text-center">
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/18/brands/logos/audi.jpg?v=1630055874070&q=75"
+                  class="w-100" />
+            <h3>Audi</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/37/brands/logos/volvo.jpg?v=1641478299001&q=75"
+                  class="w-100" />
+            <h3>Volvo</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/44/brands/logos/jaguar.jpg?v=1631163525508&q=75"
+                  class="w-100" />
+            <h3>Jaguar</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class=" d-flex text-center">
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/19/brands/logos/porsche.jpg?v=1631164048727&q=75"
+                  class="w-100" />
+            <h3>Porche</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/30/brands/logos/lamborghini.jpg?v=1631163814246&q=75"
+                  class="w-100" />
+            <h3>Lamborghini</h3>
+          </div>
+          <div class="brand-card">
+            <img src="https://imgd.aeplcdn.com/0X0/cw/brands/logos/ferrari.png?v=10&q=75"
+                  class="w-100" />
+            <h3>Ferrari</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!--Top Cars In India-->
+<div id="section-top-cars">
+  <div class="container">
+    <h1 style="color: rgb(30, 18, 84);">Top Cars In India</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <div class="top-cars-card">
+              <img src="https://imgd.aeplcdn.com/272x153/cw/body/suv.jpg?v=1&q=75"
+                    class="w-100"/>
+               <h3>Top SUVs in India</h3>     
+               <p>Mahindra Thar , Hyundai Creta</p>
+          </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/272x153/cw/body/sedan.jpg?v=1&q=75"
+                  class="w-100"/>
+             <h3>Top Sedans in India</h3>     
+             <p>Hyundai Verna , Skoda Slavia</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/272x153/cw/body/hatchbacks.jpg?v=1&q=75"
+                  class="w-100"/>
+             <h3>Top Hatchbacks in India</h3>     
+             <p>Maruti Suzuki Swift , Maruti Suzuki Baleno</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/272x153/cw/static/top-10-cars/m/luxury_msite.jpg?q=75&q=75"
+                  class="w-100"/>
+             <h3>Top Luxury Cars in India</h3>     
+             <p>Audi A4 , Toyota Land Cruiser</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!--Banner-2-->
+<div id="section-banner2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="banner2-bg-container d-flex flex-row justify-content-end">
+            <div class="banner2-content">
+              <form>
+                <h1>Check On-Road Price</h1>
+                <input type="text" placeholder="Type to select car name,"><br>
+                <input type="text" placeholder="Select City">
+                <p>Check the on road price in your city</p>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br>
+<!--Popular Used Cars-->
+<div id="section-used-cars">
+  <div class="container">
+    <h1 style="color: #171153;">Popular Used Cars</h1>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/54399/exterior-right-front-three-quarter-10.jpeg"
+              class="w-100"/>
+          <h1>Maruti Suzuki Swift</h1>
+          <p><span style="font-weight: bold;color:black">₹ 85,000 </span>Starting Price</p>    
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/112947/wagon-r-2022-exterior-right-front-three-quarter.jpeg?isig=0"
+              class="w-100"/>
+          <h1>Used Maruti Suzuki Wagon R</h1>
+          <p><span style="font-weight: bold;color:black">₹ 40,000 </span>Starting Price</p>    
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/134287/2023-city-exterior-right-front-three-quarter.jpeg?isig=0"
+              class="w-100"/>
+          <h1>Used Honda City</h1>
+          <p><span style="font-weight: bold;color:black">₹ 21,011 </span>Starting Price</p>    
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/cw/cars/discontinued/maruti-suzuki/swift-dzire-2008-2010.jpg"
+              class="w-100"/>
+          <h1>Used Maruti Suzuki Swift DZire</h1>
+          <p><span style="font-weight: bold;color:black">₹ 90,000 </span>Starting Price</p>    
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/102663/baleno-exterior-right-front-three-quarter-2.jpeg?isig=0"
+              class="w-100"/>
+          <h1>Used Maruti Suzuki Baleno</h1>
+          <p><span style="font-weight: bold;color:black">₹ 2.5 Lakh </span>Starting Price</p>    
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="top-cars-card">
+          <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/127563/new-alto-exterior-right-front-three-quarter.jpeg?isig=0"
+              class="w-100"/>
+          <h1>Used Maruti Suzuki Alto</h1>
+          <p><span style="font-weight: bold;color:black">₹ 45,000 </span>Starting Price</p>    
+        </div>
+      </div>
+      <a href="">View All Used Cars</a>
+    </div>
+  </div>
+</div><br>
+<!--Latest Car Updates-->
+<div id="section-car-updates">
+  <div class="container">
+    <h1 style="color: #171531 ;">CAR NEWS</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/146645/mg-comet-ev-right-front-three-quarter0.jpeg?isig=0&q=75"
+                  class="w-100"/>
+            <h1>MG Comet EV Unveiled for India</h1>
+            <p>by</p>      
+            <h5>Aditya Nadkarni</h5>
+            <p>MG Motor India has pulled the covers off its small EV , ...</p>
+            <a href="">Read More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/146635/volkswagen-taigun-left-side-view3.jpeg?isig=0&wm=1&q=75"
+                  class="w-100"/>
+            <h1>VW Taigun GT Matte Edition - Now in Pictures</h1>
+            <p>by</p>      
+            <h5>Nanad Ambre</h5>
+            <p>Volkswagen India announced two new variants of the Taigun and one new, ...</p>
+            <a href="">Read More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/146623/audi-rear-logo0.jpeg?isig=0&q=75"
+                  class="w-100"/>
+            <h1>Audi India registers 126 per cent sales growth in Q1 2023</h1>
+            <p>by</p>      
+            <h5>Haji Chakrawale</h5>
+            <p>Audi India has recorded strong sales growth in the first quarter of 2023, ...</p>
+            <a href="">Read More</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+            <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/146621/mahindra-scorpio-right-front-three-quarter0.jpeg?isig=0&q=75"
+                  class="w-100"/>
+            <h1>Scorpio Classic gets BS6 2 update ; prices hiked</h1>
+            <p>by</p>      
+            <h5>Haji Chakrawale</h5>
+            <p>Mahindra has updated the powerstrain of the scorpio classic to meet, ...</p>
+            <a href="">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Videos-->
+<div id="section-videos">
+  <div class="container">
+    <h1 style="color: #171153;">Videos</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+          <iframe class="w-100" height="336" src="https://www.youtube.com/embed/TWJat8fE9eo" title="Tata Nexon EV Max #Dark Edition Launched at Rs 19.04 lakh*! | All you need to know | CarWale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h1>Tata Nexon EV Max #Dark Edition Launched</h1>
+          <p>By</p>
+          <h5>Carwale Team</h5>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+          </svg>
+            709 Views</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+              <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+            </svg> 600 Likes</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+          <iframe class="w-100" height="336" src="https://www.youtube.com/embed/PsIj-cTx50Y" title="Mahindra XUV400 Real-world Range Tested | CarWale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h1>Mahindra XUV400 Real World Range Tested | Car Wale</h1>
+          <p>By</p>
+          <h5>Carwale Team</h5>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+          </svg>
+            2410 Views</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+              <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+            </svg> 750 Likes</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+          <iframe class="w-100" height="336" src="https://www.youtube.com/embed/CfnnvwEiyEU" title="Maruti Fronx review - Sporty SUV alternative to the Brezza? | CarWale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h1>Maruti Fronx review - Sporty SUV alternative to the Brezza? | CarWale
+          </h1>
+          <p>By</p>
+          <h5>Carwale Team</h5>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+          </svg>
+            6050 Views</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+              <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+            </svg> 250 Likes</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="top-cars-card">
+          <iframe class="w-100" height="336" src="https://www.youtube.com/embed/mBfm4BINqS4" title="Maruti Fronx Launch Date, Mileage, Features Explained + Your Questions Answered | CarWale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h1>Maruti Fronx Launch Date , Mileage, Features Explained...
+          </h1>
+          <p>By</p>
+          <h5>Carwale Team</h5>
+          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+            <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+            <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+          </svg>
+            42151 Views</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+              <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+            </svg> 440 Likes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<div id="section-footer">
+  <div class="container-fluid ftr-bg-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex flex-row justify-content-around">
+          <div>
+            <img src="https://imgd.aeplcdn.com/0x0/bw/static/icons/logo/fff/carwale.svg" class="ftr-img"/>
+          </div>
+          <div>
+            <img src="https://imgd.aeplcdn.com/0x0/bw/static/icons/logo/fff/cartrade.svg" class="ftr-img"/>
+          </div>
+          <div>
+            <img src="https://imgd.aeplcdn.com/0x0/bw/static/icons/logo/bikewale-logo-new-footer.svg" class="ftr-img"/>
+          </div>
+          <div>
+            <img src="https://imgd.aeplcdn.com/0x0/cw/static/mobility/mobility-white-logo.svg" class="ftr-img"/>
+          </div>
+          <div>
+            <img src="https://imgd.aeplcdn.com/0x0/cw/static/logos/absure/cw-absure-badge-white.svg" class="ftr-img"/>
+          </div><br>
+        </div>
+        <hr class="line">
+      </div>
+      <div class="col-6">
+        <ul class="list">
+          <li>Language: English हिंदी</li>
+          <li>Terms And Conditions</li>
+          <li>Advertise</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <p style="color: grey ;">Download Mobile App</p>
+        <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/play-store.svg?v2" class="ftr-image"/>
+        <img src="https://imgd.aeplcdn.com/0x0/cw/static/icons/svg/app-store.svg?v2" class="ftr-image"/>
+      </div>
+      <hr class="line">
+      <div class="col-12 text-center">
+        <p style="color: grey;">Contact With Us</p>
+        <div class="d-flex flex-row justify-content-center">
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/882px-Google_%22G%22_Logo.svg.png?20230305195327" class="follow-us-logos"/>
+          </div>
+          <div>
+            <img src="./facebook-logo-png-38347.png" class="follow-us-logos"/>
+          </div>
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/180px-Instagram_logo_2016.svg.png" class="follow-us-logos"/>
+          </div>
+          <div>
+            <img src="https://www.freepnglogos.com/uploads/linkedin-logo-transparent-picture-31.png" class="follow-us-logos"/>
+          </div>
+     </div>
+     <hr class="line">
+      </div>
+     <div class="col-6 text-left">
+          <p style="color: grey;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+              <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+            </svg>
+            2006 - 2023 www.carwale.com
+          </p>
+     </div>
+     <div class="col-6 text-right">
+      <p style="color: grey;">Visitor Agreement & Privacy Policy</p>
+     </div>
+     </div>
+    </div> 
+  </div>
+</div>
+  </body>  
+</html>
